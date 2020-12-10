@@ -22,6 +22,7 @@ module MainGame {
           },
         },
         scene: [MainScene],
+        canvas: document.getElementById("game") as HTMLCanvasElement,
       };
 
       this.gameRef = new Phaser.Game(Config);

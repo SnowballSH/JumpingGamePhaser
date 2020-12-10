@@ -2,3 +2,8 @@ body {
   background-color: #58cce0df;
   text-align: center;
 }
+
+.game {
+  border: 6px solid #52a1afdf;
+  border-radius: 1%;
+}

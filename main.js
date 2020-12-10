@@ -28,6 +28,7 @@ var MainGame;
                     },
                 },
                 scene: [MainScene],
+                canvas: document.getElementById("game"),
             };
             this.gameRef = new Phaser.Game(Config);
         }
